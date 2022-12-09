@@ -60,6 +60,8 @@ systemctl enable gear-node
 ```
 systemctl start gear-node
 ```
+You can check the success of the deployed node on the [Telemetry](https://telemetry.gear-tech.io) website. </br>
+Follow the link, type the name of the node.
 ### Checking the logs:
 ```
 journalctl -n 100 -f -u gear-node
