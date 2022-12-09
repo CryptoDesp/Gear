@@ -6,7 +6,7 @@ Gear Node Installation Instructions </br>
 According to the official Gear node documentation, there are no special requirements for hardware, except for at least 64 GB of free space on an SSD drive. </br>
 However, I recommend using a server with the following options: </br>
 CPU: 4 Core </br>
-RAM: 8gb </br>
+RAM: 8Gb </br>
 SSD: 150Gb </br>
 OS: Ubuntu 20.04 LTS </br>
 # Installing the Nibiru Node </br>
