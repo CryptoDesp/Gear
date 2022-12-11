@@ -115,3 +115,14 @@ gear purge-chain
 ```
 systemctl start gear-node
 ```
+# Additional Information
+Viewing the Gear Unique Node ID
+```
+hexdump -e '1/1 "%02x"' /root/.local/share/gear/chains/gear_staging_testnet_v4/network/secret_ed25519
+```
+Override key to use new server with old Gear ID </br>
+After the = sign, specify your key
+```
+gear --node-key=42bb2fdd46edfa4f41a5f0f9c1a5a1d407a39bafbce6f07456a2c8d9963c8f5c
+```
+
