@@ -3,8 +3,6 @@ Gear Node Installation Instructions </br>
 ## General information </br>
 ### [Official documentation](https://wiki.gear-tech.io/docs/node/setting-up)
 ### System requirements:</br>
-According to the official Gear node documentation, there are no special requirements for hardware, except for at least 64 GB of free space on an SSD drive. </br>
-However, I recommend using a server with the following options: </br>
 CPU: 4 Core </br>
 RAM: 8Gb </br>
 SSD: 150Gb </br>
