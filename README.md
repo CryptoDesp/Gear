@@ -3,9 +3,9 @@ Gear Node Installation Instructions </br>
 ## General information </br>
 ### [Official documentation](https://wiki.gear-tech.io/docs/node/setting-up)
 ### System requirements:</br>
-CPU: 4 Core </br>
-RAM: 8Gb </br>
-SSD: 150Gb </br>
+CPU: 2 Core </br>
+RAM: 4Gb </br>
+SSD: 60Gb </br>
 OS: Ubuntu 20.04 LTS </br>
 # Installing the Nibiru Node </br>
 ### System update
