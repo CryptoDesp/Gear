@@ -123,4 +123,27 @@ After the = sign, specify your key
 ```
 gear --node-key=42bb2fdd46edfa4f41a5f0f9c1a5a1d407a39bafbce6f07456a2c8d9963c8f5c
 ```
-
+# Update
+1. We recommend cleaning the previous network DB before the update:</br>
+```
+sudo systemctl stop gear-node
+gear purge-chain -y
+```
+2. Then, update the node executable to the latest version that contains everything needed to connect to the new network.</br>
+```
+wget https://get.gear.rs/gear-nightly-linux-x86_64.tar.xz
+sudo tar -xvf gear-nightly-linux-x86_64.tar.xz -C /usr/bin
+rm gear-nightly-linux-x86_64.tar.xz
+```
+3. Start the new version (Gear Staging Testnet V6):</br>
+```
+sudo systemctl start gear-node
+```
+4. (optional) If you care about keeping your peer ID the same as earlier, you can copy the network key from the previous chain:</br>
+```
+sudo systemctl stop gear-node
+cd /root/.local/share/gear/chains
+sudo cp gear_staging_testnet_v5/network/secret_ed25519 gear_staging_testnet_v6/network/secret_ed25519
+sudo systemctl start gear-node
+```
+5. Find your node at https://telemetry.gear-tech.io/ under the Gear Staging Testnet V5 tab.
