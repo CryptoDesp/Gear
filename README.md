@@ -7,7 +7,7 @@ CPU: 2 Core </br>
 RAM: 4Gb </br>
 SSD: 60Gb </br>
 OS: Ubuntu 20.04 LTS </br>
-# Installing the Nibiru Node </br>
+# Installing the Gear Node </br>
 ### System update
 ```
 sudo apt update && apt upgrade -y
